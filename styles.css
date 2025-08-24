@@ -96,17 +96,21 @@ h2::after {
 
 /* Header & Hero Section */
 .hero {
-    background-image: url('http://googleusercontent.com/image_generation_content/1');
-    background-position: center center;
+    background-image: url('Background\ image.png');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 180px 20px;
+    position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color: white;
-    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 
 .hero::before {

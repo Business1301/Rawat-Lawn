@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rawat Lawn - Your Grand Wedding Awaits</title>
+    <title data-i18n="title">Rawat Lawn - Your Grand Wedding Awaits</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,58 +13,65 @@
 <body>
 
     <header class="hero">
+        <div class="language-selector">
+            <select id="language-selector">
+                <option value="en">English</option>
+                <option value="hi">हिंदी</option>
+                <option value="mr">मराठी</option>
+            </select>
+        </div>
         <div class="hero-content">
-            <h1>Your Grand Beginning, Awaits at Rawat Lawn.</h1>
-            <p>Escape the city and step into a world of enchanting celebrations. Where elegance meets nature, and grand weddings come to life.</p>
+            <h1 data-i18n="hero-heading">Your Grand Beginning, Awaits at Rawat Lawn.</h1>
+            <p data-i18n="hero-subheading">Escape the city and step into a world of enchanting celebrations. Where elegance meets nature, and grand weddings come to life.</p>
             <div class="cta-buttons">
-                <a href="#contact" class="btn btn-primary">Inquire Now</a>
-                <a href="#gallery" class="btn btn-secondary">Explore Our Gallery</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="cta-inquire">Inquire Now</a>
+                <a href="#gallery" class="btn btn-secondary" data-i18n="cta-explore">Explore Our Gallery</a>
             </div>
         </div>
     </header>
 
     <main>
         <section id="about" class="container">
-            <h2>About Rawat Lawn</h2>
-            <p>Rawat Lawn is more than just a venue; it's a destination where we believe every wedding should be a grand, unforgettable celebration. Born from a passion for celebrating life's most precious moments, we offer a magnificent setting with ample space and a beautiful natural backdrop that will make your special day a dream come true. Our unique orange plantations provide a serene and beautiful setting for stunning photos and a truly memorable experience.</p>
+            <h2 data-i18n="about-heading">About Rawat Lawn</h2>
+            <p data-i18n="about-text">Rawat Lawn is more than just a venue; it's a destination where we believe every wedding should be a grand, unforgettable celebration. Born from a passion for celebrating life's most precious moments, we offer a magnificent setting with ample space and a beautiful natural backdrop that will make your special day a dream come true. Our unique orange plantations provide a serene and beautiful setting for stunning photos and a truly memorable experience.</p>
         </section>
 
         <section id="services" class="bg-light">
             <div class="container">
-                <h2>Venue & Services</h2>
+                <h2 data-i18n="services-heading">Venue & Services</h2>
                 <div class="services-grid">
                     <div class="service-item">
-                        <h3>Sprawling Lawn</h3>
-                        <p>A magnificent 80,000 sq ft canvas designed to host events of a truly grand scale, accommodating up to 5000 people.</p>
+                        <h3 data-i18n="service-lawn-heading">Sprawling Lawn</h3>
+                        <p data-i18n="service-lawn-text">A magnificent 80,000 sq ft canvas designed to host events of a truly grand scale, accommodating up to 5000 people.</p>
                     </div>
                     <div class="service-item">
-                        <h3>Grand Entry Gate</h3>
-                        <p>Welcome your guests in style through our stunning 28-feet entry gate, ensuring a magnificent first impression.</p>
+                        <h3 data-i18n="service-gate-heading">Grand Entry Gate</h3>
+                        <p data-i18n="service-gate-text">Welcome your guests in style through our stunning 50-meter entry gate, ensuring a magnificent first impression.</p>
                     </div>
                     <div class="service-item">
-                        <h3>Ample Parking</h3>
-                        <p>Our expansive 19,000 sq ft dedicated parking area guarantees a hassle-free arrival and departure for all your guests.</p>
+                        <h3 data-i18n="service-parking-heading">Ample Parking</h3>
+                        <p data-i18n="service-parking-text">Our expansive 19,000 sq ft dedicated parking area guarantees a hassle-free arrival and departure for all your guests.</p>
                     </div>
                     <div class="service-item">
-                        <h3>Included Amenities</h3>
-                        <p>Includes a professionally built stage for your ceremony, two well-appointed rooms for the bridal party, and a complete catering setup.</p>
+                        <h3 data-i18n="service-amenities-heading">Included Amenities</h3>
+                        <p data-i18n="service-amenities-text">Includes a professionally built stage for your ceremony, two well-appointed rooms for the bridal party, and a complete catering setup.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="pricing" class="container">
-            <h2>Pricing & Details</h2>
+            <h2 data-i18n="pricing-heading">Pricing & Details</h2>
             <div class="pricing-info">
-                <h3>Decoration Package</h3>
-                <p>Our in-house decoration package is available for just <strong>₹50,000</strong>. This includes a beautifully themed stage and seating area decor, tailored to your preferences.</p>
-                <h3>Important Note</h3>
-                <p>The electricity consumption for your event will be calculated based on usage and billed separately to ensure full transparency.</p>
+                <h3 data-i18n="pricing-package-heading">Decoration Package</h3>
+                <p data-i18n="pricing-package-text">Our in-house decoration package is available for just <strong>₹50,000</strong>. This includes a beautifully themed stage and seating area decor, tailored to your preferences.</p>
+                <h3 data-i18n="pricing-note-heading">Important Note</h3>
+                <p data-i18n="pricing-note-text">The electricity consumption for your event will be calculated based on usage and billed separately to ensure full transparency.</p>
             </div>
         </section>
 
         <section id="gallery" class="container">
-            <h2>Our Gallery</h2>
+            <h2 data-i18n="gallery-heading">Our Gallery</h2>
             <div class="gallery-container">
                 <div class="gallery-item">
                     <img src="IMG20250413204958.jpg" alt="Rawat Lawn Venue">
@@ -89,8 +96,8 @@
 
         <section id="contact" class="bg-light">
             <div class="container contact-info-block">
-                <h2>Contact Us</h2>
-                <p>Ready to plan your dream wedding? Get in touch with us to book a tour and receive a personalized quote.</p>
+                <h2 data-i18n="contact-heading">Contact Us</h2>
+                <p data-i18n="contact-text">Ready to plan your dream wedding? Get in touch with us to book a tour and receive a personalized quote.</p>
                 <p><strong>Phone:</strong> <a href="tel:7972231631">7972231631</a></p>
                 <p><strong>Email:</strong> <a href="mailto:rawatlawn@gmail.com">rawatlawn@gmail.com</a></p>
                 <p><strong>Location:</strong> Narkhed, Nagpur, 441304</p>
@@ -103,8 +110,19 @@
         <div class="social-icons">
             <a href="https://www.instagram.com/rawatlawn/" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
         </div>
-        <p>&copy; 2025 Rawat Lawn. All Rights Reserved.</p>
+        <p data-i18n="footer-copyright">&copy; 2025 Rawat Lawn. All Rights Reserved.</p>
     </footer>
 
+    <script src="translate.js"></script>
+    <script>
+        // Add a small delay to ensure all elements are loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Force language update after a short delay
+            setTimeout(function() {
+                const lang = localStorage.getItem('lang') || 'en';
+                setLanguage(lang);
+            }, 100);
+        });
+    </script>
 </body>
 </html>
